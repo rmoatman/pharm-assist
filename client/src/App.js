@@ -1,7 +1,7 @@
 import React from "react";
-import Routed from "./Routed";
+import Routed from "./routed";
 import axios from "axios";
-import { AuthContextProvider } from "./context/AuthContext";
+import { AuthContextProvider } from "./context/authcontext";
 
 axios.defaults.withCredentials = true;
 

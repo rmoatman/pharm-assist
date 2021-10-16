@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { useHistory } from "react-router-dom";
 // import { createUser } from '../utils/API';
-import AuthContext from "../context/AuthContext.js";
+import AuthContext from "../context/authcontext.js";
 import axios from "axios";
 
 export default function SignUp() {

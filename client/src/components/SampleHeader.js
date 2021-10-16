@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/PrintingStyles.css';
+import '../styles/printingstyles.css';
 
 function SampleHeader() {
   return (

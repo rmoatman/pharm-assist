@@ -1,13 +1,13 @@
 import React, { useContext } from "react";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import About from "./components/About.js";
-import SampleHeader from './components/SampleHeader';
-import MedList from "./components/MedList.js";
+import About from "./components/about.js";
+import SampleHeader from './components/sampleheader';
+import MedList from "./components/medlist.js";
 // import RenderForm from "./components/RenderForm.js"; 
 // import RenderHeader from "./components/RenderHeader.js"; 
-import Navbar from "./components/Navbar.js";
-import SignUp from "./components/SignUp.js";
-import AuthContext from "./context/AuthContext";
+import Navbar from "./components/navbar.js";
+import SignUp from "./components/signup.js";
+import AuthContext from "./context/authcontext";
 
 // bootstrap
 import "./styles/bootstrap.min.css";
@@ -16,10 +16,10 @@ import "./styles/bootstrap.min.css";
 import ReactToPrint from "react-to-print";
 
 //styling used for Printing
-import "./styles/PrintingStyles.css"
+import "./styles/printingstyles.css"
 
 //styling used for App
-import "./styles/App.css"
+import "./styles/app.css"
 
 // Main App component
 class ComponentToPrint extends React.Component {

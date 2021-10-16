@@ -1,7 +1,7 @@
 
 import React, { useContext, useState } from 'react';
 import { useHistory } from "react-router-dom";
-import AuthContext from "../context/AuthContext.js";
+import AuthContext from "../context/authcontext.js";
 import { Link } from 'react-router-dom';
 
 import axios from "axios";

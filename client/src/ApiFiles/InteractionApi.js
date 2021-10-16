@@ -1,7 +1,3 @@
-import React, { useEffect, useState } from 'react';
-import getRxcuiInfo from './DrugInfo';
-import axios from 'axios';
-
 // start here-- app called from index.js
 const getInteraction = (query, query2) => {
         // query contains MedOne
