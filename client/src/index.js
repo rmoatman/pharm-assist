@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from './app.js';
+import App from './app1.js';
 import './index.css';
 
 // App.js is located in /src
