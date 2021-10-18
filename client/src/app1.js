@@ -1,5 +1,5 @@
 import React from "react";
-import Routed from "./routed";
+import Routed from "./routed1";
 import axios from "axios";
 import { AuthContextProvider } from "./context/authcontext";
 
